@@ -27,6 +27,9 @@ Run `Fine_tuning.py` to fine-tune the pretrained framework.
 ## Test
 Run `Test_fine_tuning.py` to test the fine-tuned framework.    
 
+## Predict
+If you want to illustrate the machining feature recognition results of a part. Run `Predict.py`.    
+
 ## Evaluation
 The folder "all_eval_data" contains all public evaluation part graphs.  
 (1)	Get the source code by cloning the repository: https://github.com/HARRIXJANG/DRLFS_master.git.   
