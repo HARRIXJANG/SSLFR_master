@@ -2,9 +2,7 @@
 Created by Hang Zhang from Northwestern Polytechnical University. 
 
 ## Introduction
-SSLFR is a Self-Supervised Learning (SSL) framework for intersecting machining feature segmentation. The framework takes intersecting machining features represented by attributed adjacency graphs (AAGs) as input and isolated machining features as output. 
-
-For confidentiality reasons, the original codes and data used in our experiments cannot be made public. However, we provide modified versions of the codes and data used. While it may not be possible to replicate the experiment exactly, it is possible to use modified codes and data to accomplish the main tasks of the experiment and obtain similar results. 
+SSLFR is a point cloud Self-Supervised Learning (SSL) framework for machining feature recognition. The framework is pre-trained using a large amount of unlabeled point cloud data, first. Afterward, labeled data is used to fine-tune the pre-trained framework. Finally, the fine-tuned framework can be directly employed for machining feature recognition.
 
 ## Setup
 (1)	cuda 11.6.112     
