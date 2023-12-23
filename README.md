@@ -12,12 +12,11 @@ SSLFR is a point cloud Self-Supervised Learning (SSL) framework for machining fe
 
 The code is tested on Intel Core i9-10980XE CPU, 128GB memory, and NVIDIA GeForce RTX 3090 GPU. 
 
-## Train
+## Pretrain
 (1)	Get the source code by cloning the repository: https://github.com/HARRIXJANG/SSLFR_master.git.   
 (2)	Create a folder named data in the root directory.  
-(3)	Download the [training dataset](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing) and the [test dataset](https://drive.google.com/drive/folders/1M-wEQFi1_7Ng03HVYAkw5ynjKU_ptEID?usp=sharing). Graphs are stored in the txt files. Lines starting with #N in the txt indicate the attributes of nodes (see the paper for details), and the last attribute indicates the handle number of a face (for confidentiality reasons, we have hidden the handle numbers of the faces in the training dataset and test dataset). Lines starting with #E represent the attributes of edges, where the first element stands for the source node and the second element for the target node.  
-(4)	Put the datasets in the folders `train_data` and `test_data`, respectively.    
-(5)	Run `Train.py` to train the framework.    
+(3)	Download the [dataset](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing). Point clouds are stored in h5 files. Specifically, point cloud data from ASIN is stored in train.h5 and validation.h5. The point cloud data from MFInstSeg is stored in train_MFInstSeg_pt.h5 and valid_MFInstSeg_pt.h5.  Each point cloud in these datasets has an attribute size of 10, encompassing coordinates, normal vectors, and face types in order. The face type is encoded using a one-hot representation with a length of 4.
+(4)	Run `Pretrain.py` to train the framework.    
 
 ## Evaluation
 The folder "all_eval_data" contains all public evaluation part graphs.  
