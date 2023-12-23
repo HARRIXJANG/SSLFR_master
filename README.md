@@ -19,7 +19,7 @@ The code is tested on Intel Core i9-10980XE CPU, 128GB memory, and NVIDIA GeForc
 (4)	Run `Pretrain.py` to train the framework.    
 
 ## Fine-tune 
-Run `Fine_tuning.py` to train the framework.    
+Run `Fine_tuning.py` to fine-tune the pretrained framework.    
 
 ## Test
 Run `Test_fine_tuning.py` to train the framework.    
