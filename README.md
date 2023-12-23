@@ -34,10 +34,10 @@ If you want to illustrate the machining feature recognition results of a part. R
 If you use this code please cite:  
 ```
 @inproceedings{  
-      title={A novel method for intersecting machining feature segmentation via deep reinforcement learning},  
-      author={Hang Zhang, Wenhu Wang, Shusheng Zhang, Yajun Zhang, Jingtao Zhou, Zhen Wang, Bo Huang, and Rui Huang},  
-      booktitle={Advanced Engineering Informatics},  
-      year={2023}  
+      title={Point cloud self-supervised learning for machining feature recognition},  
+      author={Hang Zhang, Wenhu Wang, Shusheng Zhang, Yajun Zhang, Zhen Wang, Jingtao Zhou, Jiachen Liang, Bo Huang},  
+      booktitle={},  
+      year={}  
     }
 ``` 
 If you have any questions about the code, please feel free to contact me (zhnwpu714@163.com).
