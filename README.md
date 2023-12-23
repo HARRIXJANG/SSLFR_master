@@ -19,16 +19,16 @@ The code is tested on Intel Core i9-10980XE CPU, 128GB memory, and NVIDIA GeForc
 (4)	Run `Pretrain.py` to train the framework.    
 
 ## Reconstruct
-If you want to reconstruct a masked point could model. Run `Reconstruction.py`.    
+If you want to reconstruct a masked point could model, download the [parameters](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing) of the model and run `Reconstruction.py`.    
 
 ## Fine-tune 
 Run `Fine_tuning.py` to fine-tune the pretrained framework.    
 
 ## Test
-Run `Test_fine_tuning.py` to test the fine-tuned framework.    
+Download the [parameters](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing) and run `Test_fine_tuning.py` to test the fine-tuned framework.    
 
 ## Predict
-If you want to illustrate the machining feature recognition results of a part. Run `Predict.py`.    
+If you want to illustrate the machining feature recognition results of a part, download the [parameters](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing) and run `Predict.py`.    
 
 ## Citation
 If you use this code please cite:  
