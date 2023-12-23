@@ -18,6 +18,9 @@ The code is tested on Intel Core i9-10980XE CPU, 128GB memory, and NVIDIA GeForc
 (3)	Download the [dataset](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing). Point clouds are stored in h5 files. Specifically, point cloud data from ASIN is stored in train.h5 and validation.h5. The point cloud data from MFInstSeg is stored in train_MFInstSeg_pt.h5 and valid_MFInstSeg_pt.h5.  Each point cloud in these datasets has an attribute size of 10, encompassing coordinates, normal vectors, and face types in order. The face type is encoded using a one-hot representation with a length of 4.      
 (4)	Run `Pretrain.py` to train the framework.    
 
+## Reconstruct
+If you want to reconstruct a masked point could model. Run `Reconstruction.py`.    
+
 ## Fine-tune 
 Run `Fine_tuning.py` to fine-tune the pretrained framework.    
 
