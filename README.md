@@ -21,6 +21,9 @@ The code is tested on Intel Core i9-10980XE CPU, 128GB memory, and NVIDIA GeForc
 ## Fine-tune 
 Run `Fine_tuning.py` to train the framework.    
 
+## Test
+Run `Test_fine_tuning.py` to train the framework.    
+
 ## Evaluation
 The folder "all_eval_data" contains all public evaluation part graphs.  
 (1)	Get the source code by cloning the repository: https://github.com/HARRIXJANG/DRLFS_master.git.   
