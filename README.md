@@ -22,7 +22,7 @@ The code is tested on Intel Core i9-10980XE CPU, 128GB memory, and NVIDIA GeForc
 Run `Fine_tuning.py` to fine-tune the pretrained framework.    
 
 ## Test
-Run `Test_fine_tuning.py` to train the framework.    
+Run `Test_fine_tuning.py` to test the fine-tuned framework.    
 
 ## Evaluation
 The folder "all_eval_data" contains all public evaluation part graphs.  
