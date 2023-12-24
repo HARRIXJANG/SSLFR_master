@@ -19,16 +19,16 @@ The code is tested on Intel Core i9-10980XE CPU, 128GB memory, and NVIDIA GeForc
 (4)	Run `Pretrain.py` to train the framework.    
 
 ## Reconstruct
-If you want to reconstruct a masked point could model, download the [parameters](https://drive.google.com/drive/folders/1cF7XjZH4QXCP38GiebnOMBUXXxCfFOSo?usp=drive_link) of the model and run `Reconstruction.py`.    
+If you want to reconstruct a masked point could model, download the [parameters](https://drive.google.com/drive/folders/1cF7XjZH4QXCP38GiebnOMBUXXxCfFOSo?usp=drive_link) of the pretrained model and run `Reconstruction.py`.    
 
 ## Fine-tune 
 Download the [parameters](https://drive.google.com/drive/folders/1cF7XjZH4QXCP38GiebnOMBUXXxCfFOSo?usp=drive_link) of the pretrained framework, and run `Fine_tuning.py` to fine-tune the pretrained framework.    
 
 ## Test
-Download the [parameters](https://drive.google.com/drive/folders/1cF7XjZH4QXCP38GiebnOMBUXXxCfFOSo?usp=drive_link) and run `Test_fine_tuning.py` to test the fine-tuned framework.    
+Download the [parameters](https://drive.google.com/drive/folders/1l9jk8DSJ7WzPyNAg1Q3h_PV4Xm9oHQlD?usp=drive_link) of the fine-tuned model and run `Test_fine_tuning.py` to test the fine-tuned framework.    
 
 ## Predict
-If you want to illustrate the machining feature recognition results of a part, download the [parameters](https://drive.google.com/drive/folders/1cF7XjZH4QXCP38GiebnOMBUXXxCfFOSo?usp=drive_link) and run `Predict.py`.    
+If you want to illustrate the machining feature recognition results of a part, download the [parameters](https://drive.google.com/drive/folders/1l9jk8DSJ7WzPyNAg1Q3h_PV4Xm9oHQlD?usp=drive_link) of the fine-tuned model and run `Predict.py`.    
 
 ## Citation
 If you use this code please cite:  
