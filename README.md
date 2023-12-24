@@ -15,20 +15,20 @@ The code is tested on Intel Core i9-10980XE CPU, 128GB memory, and NVIDIA GeForc
 ## Pretrain
 (1)	Get the source code by cloning the repository: https://github.com/HARRIXJANG/SSLFR_master.git.   
 (2)	Create a folder named data in the root directory.  
-(3)	Download the [dataset](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing). Point clouds are stored in h5 files. Specifically, point cloud data from ASIN is stored in train.h5 and validation.h5. The point cloud data from MFInstSeg is stored in train_MFInstSeg_pt.h5 and valid_MFInstSeg_pt.h5.  Each point cloud in these datasets has an attribute size of 10, encompassing coordinates, normal vectors, and face types in order. The face type is encoded using a one-hot representation with a length of 4.      
+(3)	Download the [dataset](https://drive.google.com/file/d/1Kjy2pvYIwe4U8S3G6VY8IkMsVWJFjFTP/view?usp=drive_link). Point clouds are stored in h5 files. Specifically, point cloud data from ASIN is stored in train.h5 and validation.h5. The point cloud data from MFInstSeg is stored in train_MFInstSeg_pt.h5 and valid_MFInstSeg_pt.h5.  Each point cloud in these datasets has an attribute size of 10, encompassing coordinates, normal vectors, and face types in order. The face type is encoded using a one-hot representation with a length of 4.      
 (4)	Run `Pretrain.py` to train the framework.    
 
 ## Reconstruct
-If you want to reconstruct a masked point could model, download the [parameters](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing) of the model and run `Reconstruction.py`.    
+If you want to reconstruct a masked point could model, download the [parameters](https://drive.google.com/drive/folders/1cF7XjZH4QXCP38GiebnOMBUXXxCfFOSo?usp=drive_link) of the model and run `Reconstruction.py`.    
 
 ## Fine-tune 
-Run `Fine_tuning.py` to fine-tune the pretrained framework.    
+Download the [parameters](https://drive.google.com/drive/folders/1cF7XjZH4QXCP38GiebnOMBUXXxCfFOSo?usp=drive_link) of the pretrained framework, and run `Fine_tuning.py` to fine-tune the pretrained framework.    
 
 ## Test
-Download the [parameters](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing) and run `Test_fine_tuning.py` to test the fine-tuned framework.    
+Download the [parameters](https://drive.google.com/drive/folders/1cF7XjZH4QXCP38GiebnOMBUXXxCfFOSo?usp=drive_link) and run `Test_fine_tuning.py` to test the fine-tuned framework.    
 
 ## Predict
-If you want to illustrate the machining feature recognition results of a part, download the [parameters](https://drive.google.com/drive/folders/1FWEzZTyYV4E4kksBGu3RGHdx_yT1N1zC?usp=sharing) and run `Predict.py`.    
+If you want to illustrate the machining feature recognition results of a part, download the [parameters](https://drive.google.com/drive/folders/1cF7XjZH4QXCP38GiebnOMBUXXxCfFOSo?usp=drive_link) and run `Predict.py`.    
 
 ## Citation
 If you use this code please cite:  
