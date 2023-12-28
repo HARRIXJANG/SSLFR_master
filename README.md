@@ -30,14 +30,4 @@ Download the [parameters](https://drive.google.com/drive/folders/1l9jk8DSJ7WzPyN
 ## Predict
 If you want to illustrate the machining feature recognition results of a part, download the [parameters](https://drive.google.com/drive/folders/1l9jk8DSJ7WzPyNAg1Q3h_PV4Xm9oHQlD?usp=drive_link) of the fine-tuned model and run `Predict.py`.    
 
-## Citation
-If you use this code please cite:  
-```
-@inproceedings{  
-      title={Point cloud self-supervised learning for machining feature recognition},  
-      author={Hang Zhang, Wenhu Wang, Shusheng Zhang, Yajun Zhang, Zhen Wang, Jingtao Zhou, Jiachen Liang, Bo Huang},  
-      booktitle={},  
-      year={}  
-    }
-``` 
 If you have any questions about the code, please feel free to contact me (zhnwpu714@163.com).
