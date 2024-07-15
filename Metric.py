@@ -58,24 +58,6 @@ def Mod_Metric(rebuild_points, gt_points):
     a3 = 0.
     return a1, a2, a3, a_nor
 
-def Instance_Segmentation_Accuracy(y_ture, y_pred):
-    n = y_ture.shape[1]
-    y_pred_round = torch.round(y_pred)
-    sub_m = torch.abs(y_pred_round - y_ture)
-    sub_m_add = torch.sum(sub_m, dim=-1).squeeze()
-    sub_m_add = sub_m_add/n
-    sub_mean = torch.mean(sub_m_add)
-    return sub_mean
-
-def Fine_tuning_Metric(ret_ss, class_label, ret_isf, instance_label):
-    b, n, _ = class_label.shape
-    _, ss_num = torch.max(ret_ss, dim=-1)
-    _, cl_num = torch.max(class_label, dim=-1)
-    correct_1 = torch.eq(ss_num, cl_num)
-    acc_sem = torch.sum(correct_1).item() / (b*n)
-    acc_ins = Instance_Segmentation_Accuracy(instance_label, ret_isf)
-    return acc_sem, acc_ins
-
 def Fine_tuning_Metric_for_sem(ret_ss, class_label):
     b, n, _ = class_label.shape
     _, ss_num = torch.max(ret_ss, dim=-1)
